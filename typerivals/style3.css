@@ -1,0 +1,54 @@
+#sticky {
+    background-color: rgb(50, 52, 55);
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 55px;
+    margin-right: 24px;
+    font-size: 25px;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(209, 208, 197);
+    background-color: rgb(50, 52, 55);
+}
+.icon{
+    height: 68px;
+    border-radius: 43px;
+}
+h1 {
+    font-weight: lighter;
+    font-size: 74px;
+}
+.result{
+    text-align: center;
+    margin: 22px 107px;
+    font-size: 48px;
+}
+button{
+    font-size: 20px;
+    font-weight: 100;
+    color: #223c52;
+    background-color: #8b8b46;
+    padding: 11px 29px;
+    border-radius: 42px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-top: 20px;
+}
