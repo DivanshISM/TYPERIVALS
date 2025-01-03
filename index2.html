@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Typerivals</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    
+    <body>
+        <div id="sticky">
+            <nav>
+                <h1>TYPERIVALS</h1>
+                <ul>
+                    <li class="settings">TEST</li>
+                    <li class="settings"><div class="dropdown" onclick="toggledropdown()">
+                        TEST TIME
+                        <div class="dropdown-content">
+                            <div class="option1">30 sec</div>
+                            <div class="option2">1 min</div>
+                            <div class="option3">2 min</div>
+                        </div>
+                    </div></li>
+                    <li class="settings leaderboard">LEADERBOARD</li>
+                    <li><img src="guest profile pic.jpg" alt="G" class="profile"></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="testarea">
+    <div class="para">
+        <div class="timerbox">
+            <h2>TIME LEFT: 
+            </h2>
+                <p class="timer"></p>
+        </div>
+        <span class="prf" style="color: black;"></span><span class="prf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nostrum voluptatum assumenda ad alias, delectus quas inventore error officia laboriosam. Voluptate earum, sed ab quia repellendus commodi ad a cum.</span>
+    </div>
+    <div class="button">
+        <button class="end">end</button>
+    </div>
+
+    </div>
+
+    <div class="viewresult">
+    <div class="result">
+        <h2>Result</h2>
+        <nav class="resul">
+            <p>WPM</p>
+            <p id="wpm">10</p>
+        </nav>
+        <nav class="resul" >
+            <p>Accuracy</p>
+            <p id="acurracy">95%</p>
+        </nav>
+
+        <nav class="resul">
+            <p >Duration</p>
+            <p id="duration">1min</p>
+        </nav>
+        <nav class="resul ">
+            <p >score</p>
+            <p class="score">i</p>
+        </nav>
+
+    </div>
+    <div class="button">
+        <button id="restart">Restart test</button>
+    </div>
+
+    </div>
+    <script src="script2.js"></script>
+    <script type="module" src="userdata.js"></script>
+</body>
+</html>

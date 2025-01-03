@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    color: rgb(209,208,197);
+    font-size: 60px;
+}
+form{
+    text-align: center;
+    color: rgb(209,208,197);
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+pre{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    left: -42px;
+    position: relative;
+}
+.box{
+    color:white;
+    background-color: rgb(209,208,197);
+    
+}
+body{
+    background-image: url(background.png) ;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+}
+
+label{
+    font-size: 30px;
+    color: rgb(209,208,197);
+}
+::placeholder{
+    text-align: center;
+}
+.key {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid;
+    display: inline-block;
+    margin: 22px;
+    width: 400px;
+    height: 452px;
+    font-size: 28px;
+    background-color: rgb(50,52,55);
+    border-radius: 10px;
+}
+
+.c1 {
+    text-align: center;
+}
+
+#heading {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1rem;
+    position: relative;
+    color: rgb(209,208,197);
+    left: -25px;
+}
+#username{
+    font-size: 32px;
+    background-color: rgb(50,52,55);
+}
+#password {
+    font-size: 32px;
+    background-color: rgb(50,52,55);
+}
+.set{
+    padding: 12px;
+    position: relative;
+    left: -12px;
+}
+a:visited{
+    color:  rgb(209,208,197);
+}
+.let{
+    border-radius: 61px;
+    font-weight: 900;
+    padding: 17px 37px;
+    margin-top: 23px;
+    color: rgb(50, 52, 55);
+    font-size: 24px;
+}
